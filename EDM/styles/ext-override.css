@@ -1,0 +1,33 @@
+﻿ul.x-tab-strip li 
+{
+	 margin-top:3px;
+}
+
+.x-tab-strip-active, .x-tab-strip-active a.x-tab-right {
+    margin-top:0px !important;
+}
+
+.x-tab-strip-top .x-tab-strip-active .x-tab-strip-inner {
+	padding-top:3px;
+}
+
+.x-tab-strip-top .x-tab-right, .x-tab-strip-top .x-tab-left, .x-tab-strip-top .x-tab-strip-inner{
+	background-image: url(../Images/tabs-sprite.gif);
+}
+
+.x-form-field-wrap .x-form-trigger 
+{
+ *margin-top:1px;
+}
+
+.x-form-label-left label 
+{
+font-family:Helvetica,sans-serif;
+font-size:13px;
+text-align:left;
+}
+
+.x-tab-panel-header
+{
+	border:none;
+}

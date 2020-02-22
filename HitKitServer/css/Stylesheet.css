@@ -1,0 +1,60 @@
+﻿body
+{
+}
+
+
+
+.combofield
+{	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:Black;
+}
+
+.textfield
+{	
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style:normal;
+	
+}
+
+.textfield-empty
+{
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style:italic;
+	color:Gray;
+}
+
+
+
+.loginbutton
+{
+
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+	letter-spacing: 0px;
+	width:60px;
+	margin-left:130px;
+}
+
+.loginMsg
+{
+	 text-align:left;
+	 padding-left:92px;
+	 color:Red;
+	 font-weight:bold;
+	 font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+.linkType
+{
+	padding-left:38px;
+	text-align:left;
+	margin-top:20px;
+	
+}

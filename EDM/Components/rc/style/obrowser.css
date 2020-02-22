@@ -1,0 +1,190 @@
+/*** Datagrid layout ***/
+.Hidden
+{
+  display: none
+}
+
+
+.RowNumber
+{
+  font      : normal 10px Verdana;
+  height    : 18px;
+  text-align: right;
+  width     : 60px;
+  border-left: none;
+  border-right: none;
+  border-top: solid 1px #FFFFFF;
+  border-bottom: solid 1px #716F64;
+}
+
+
+BODY
+{
+  background-color : #E6E6E6;
+  border-style     : none;
+  color            : #000000;
+  font             : normal 12px Arial;
+  margin-top       : 0px;
+  margin-left	   : 0px;
+  margin-right	   : 0px;
+  margin-bottom	   : 0px;
+  padding:		   : 0px;  
+}
+
+
+BUTTON, .Button, .Toolbutton
+{
+  background-color: #333333;
+  border-width    : 1px;
+  color           : #FFFFFF;
+  cursor          : pointer;
+  font            : bold 12px Arial;
+  height          : 22px;
+  width           : 80px
+}
+
+
+BUTTON.Toolbutton
+{
+  background-color: #E2E2E2;
+  margin          : 0px;
+  padding         : 0px;
+  width           : 23px
+} 
+
+
+BUTTON.Navigator
+{
+  background-color: #333333;
+  border-width    : 1px;
+  height          : 18px;
+  margin          : 0px;
+  padding         : 0px;
+  width           : 19px;
+}
+
+
+FIELDSET
+{
+  padding: 0px 10px
+}
+
+
+IMG.Link
+{
+  border: 1px none #FFFFFF;
+  cursor: pointer
+}
+
+
+INPUT.Text
+{
+  font  : normal 11px Verdana;
+  height: 19px;
+  width : 150px
+}
+
+LEGEND
+{
+  padding: 0px 5px 0px 5px
+}
+
+
+SELECT
+{
+  border: 1px solid #FFFFFF;
+  font  : normal 12px Arial;
+  width : 160px
+}
+
+
+TABLE,TR,TH,TD
+{
+  border-collapse: collapse;
+  font           : normal 12px Arial;
+  margin         : 0px;
+  padding        : 0px
+}
+
+
+TABLE.Browser
+{
+  border-collapse: collapse;
+  height         : 100%;
+  margin         : 0px;
+  padding        : 0px;
+  table-layout   : fixed;
+  width          : 100%
+}
+
+TABLE.tabs, TD.tabs
+{
+	background-image : url(../image/fill_left.png);
+	background-repeat: repeat-x;
+	border-collapse  : collapse;
+	font             : normal 12px Arial;
+	margin           : 0px;
+	padding          : 0px
+}
+
+TABLE.navs, TD.navs
+{
+	background-image : url(../image/footer_bg.png);
+	background-repeat: repeat-x;
+	border-collapse  : collapse;
+	font             : normal 12px Arial;
+	margin           : 0px;
+	padding          : 0px
+}
+
+TD.Detail
+{
+  padding: 4px 10px 4px 0px
+}
+
+
+TH
+{
+  text-align: left;
+}
+
+
+TABLE.FileList
+{
+  background-color: #FFFFFF;
+  margin          : 8px 0px;
+}
+
+
+TABLE.FileList TH
+{
+  background-color: #C0C0C0;
+  border-right    : 1px solid #FFFFFF;
+  font-weight     : bold;
+  padding         : 2px 5px
+}
+
+TABLE.FileList TD
+{
+  padding: 2px 5px
+}
+
+
+/*** Style for editable Combobox ***/
+SELECT.Combobox
+{
+  clip    : rect(2px, 158px, 19px, 142px);
+  position: absolute;
+  height  : 19px;
+  width   : 160px;
+  z-indez : 1
+}
+
+INPUT.Combobox
+{
+  font    : normal 12px Arial;
+  height  : 21px;
+  position: absolute;
+  width   : 160px;
+  z-indez : 2
+}

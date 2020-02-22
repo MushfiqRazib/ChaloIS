@@ -1,0 +1,120 @@
+BODY
+{
+  background-color : #F4F3EE;
+  border-style     : none;
+  color            : #000000;
+  font             : normal 12px Arial;
+  margin           : 2px 4px 0px 4px
+}
+
+
+BUTTON, .Button
+{
+  background-color: #333333;
+  color           : #FFFFFF;
+  cursor          : pointer;
+  font            : normal 12px Arial;
+  height          : 22px;
+  width           : 80px
+}
+
+
+.Toolbutton, BUTTON.Navigator
+{
+  background-color: #333333;
+  color           : #FFFFFF;
+  border-width    : 1px;
+  height          : 21px;
+  margin          : 0px;
+  padding         : 0px;
+  width           : 23px
+}
+
+BUTTON.Navigator
+{
+  height: 18px;
+  width : 19px
+}
+
+
+FIELDSET
+{
+  padding: 0px 10px
+}
+
+
+IMG.Link
+{
+  border: 1px none #FFFFFF;
+  cursor: pointer;
+}
+
+
+INPUT
+{
+  font  : normal 12px Arial;
+  height: 21px;
+  width : 100px
+}
+
+
+LEGEND
+{
+  padding: 0px 5px 0px 5px
+}
+
+
+SELECT
+{
+  font : normal 12px Arial;
+  width: 280px
+}
+
+
+TABLE
+{
+  font: normal 12px Arial
+}
+
+
+/*** File browsing styles ***/
+DIV.FileBrowse
+{
+  border      : 0px none #000000;
+  position    : absolute;
+  text-align  : right;
+  width       : 290px;
+  z-index     : 1
+}
+
+INPUT.FileBrowse
+{
+  filter : alpha(opacity: 0);
+  height : 21px;
+  opacity: 0;
+  width  : 189px
+}
+
+
+INPUT.FileButton
+{
+  background-color: #333333;
+  color           : #FFFFFF;
+  border-width    : 1px;
+  height          : 21px;
+  margin          : 0px;
+  padding         : 0px;
+  position        : relative;
+  width           : 23px;
+  z-index         : 0
+}
+
+
+INPUT.FileDisplay
+{
+  font    : normal 12px Arial;
+  height  : 21px;
+  position: relative;
+  width   : 267px;
+  z-index : 2
+}

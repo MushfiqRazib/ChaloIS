@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+    <English-US>
+        <pagenames>
+
+          <!-- ****************************************************************-->
+          <!-- ******************** Start Login Page  *************************-->
+          <!-- ****************************************************************-->
+          <loginpage>
+            <controls>
+              <!-- Labels of login page-->
+              <labels>
+                <username>Username  :</username>
+                <password>Password  :</password>
+				<changepassword>Change Password</changepassword>
+				<newpassword>New Password :</newpassword>
+				<retypenewpassword>Retype New Password :</retypenewpassword>
+               </labels>
+               <login-bg>
+                 <caption>login_bg.png</caption>
+               </login-bg>               
+              <!-- Button Login -->
+              <login>
+                <caption>login_btn.png</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <enterusername>Please enter your username</enterusername>
+                  <enterpassword>Please enter your password</enterpassword>
+                  <saveuserpass>Do you want to save password?</saveuserpass>
+				  <welcomemsg>Welcome to IND/GIS application. You have succesfully logged in</welcomemsg>
+				  <passwordnonmatchedmsg>New Password doesnt match</passwordnonmatchedmsg>
+				  <passwordchangedmsg>Password changed succesfully</passwordchangedmsg>
+				  <invalidusername>Invalid username or password</invalidusername>
+				  <invalidpassword>Invalid password</invalidpassword>
+				  <passwordchangefailuremsg>Password Changed Failed.Pls Try again.</passwordchangefailuremsg>
+				
+                </successivemessages>
+              </login>
+              
+              <!-- Button Login failure -->
+              <loginfail>
+                <caption>loginfail.gif</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <msgloginfail>Invalid user or password.Please try again.</msgloginfail>
+                </successivemessages>
+              </loginfail>
+              
+            </controls>                       
+          </loginpage>
+          
+          <!-- ****************************************************************-->
+          <!-- ******************** End Login Page    *************************-->
+          <!-- ****************************************************************-->
+
+          <!-- ############################################################### -->
+
+
+            <!-- ****************************************************************-->
+            <!-- ******************** Start Help Page  *************************-->
+            <!-- ****************************************************************-->
+            <helppage>
+                <controls>
+                    <!-- Labels of login page-->
+                    <labels>
+                        <globallegend>HelpDesk</globallegend>
+                    </labels>
+                    <!-- Gebruikershandleiding section-->
+                    <heading1>
+                        <heading>Gebruikershandleiding</heading>
+                        <content>beschikbaar via IND-Intranet</content>
+                    </heading1>
+                    <heading2>
+                        <heading>GNDB-codering</heading>
+                        <content>beschikbaar via IND-Intranet</content>
+                    </heading2>
+
+                    <heading3>
+                        <heading>Helpdesk</heading>
+                        <content>Contact uw RIC-Hoofdgebruiker</content>
+                    </heading3>
+
+                    <headingoverdgi>
+                        <heading>Over DGI</heading>
+                        <contentheading1>
+                            <heading>
+                                Product Information
+                            </heading>
+                            <topic1>
+                                <heading>
+                                    Product
+                                </heading>
+                                <content>
+                                    DGI (IND GIS-applicatie)
+                                </content>
+                            </topic1>
+                            <topic2>
+                                <heading>
+                                    Version
+                                </heading>
+                                <content>
+                                    2.0
+                                </content>
+                            </topic2>
+                            <topic3>
+                                <heading>
+                                    Update
+                                </heading>
+                                <content>
+                                    Dec 2008
+                                </content>
+                            </topic3>
+                        </contentheading1>
+                        <contentheading2>
+                            <heading>
+                                License Information
+                            </heading>
+                            <topic1>
+                                <heading>
+                                    User
+                                </heading>
+                                <content>
+                                    DGI
+                                </content>
+                            </topic1>
+                            <topic2>
+                                <heading>
+                                    Comapany
+                                </heading>
+                                <content>
+                                    Hawar Information Technology BV
+                                </content>
+                            </topic2>
+                            <topic3>
+                                <heading>
+                                    Type
+                                </heading>
+                                <content>
+                                    User
+                                </content>
+                            </topic3>
+                            <topic4>
+                                <heading>
+                                    Expiration
+                                </heading>
+                                <content>
+                                    No Expiration
+                                </content>
+                            </topic4>
+                        </contentheading2>
+                        <contentheading3>
+                            <heading>
+                                Additional Information
+                            </heading>
+                            <topic1>
+                                <heading>
+                                    Hostname
+                                </heading>
+                                <content>
+                                    ind.hawarit.com
+                                </content>
+                            </topic1>
+                            <topic2>
+                                <heading>
+                                    Memory
+                                </heading>
+                                <content>
+                                    2GB
+                                </content>
+                            </topic2>
+                            <topic3>
+                                <heading>
+                                    CPU
+                                </heading>
+                                <content>
+                                    3.27 GHz
+                                </content>
+                            </topic3>
+                            <topic4>
+                                <heading>
+                                    Host OS
+                                </heading>
+                                <content>
+                                    Microsoft windows 2003 server
+                                    Web Edition Service pack2
+                                </content>
+                            </topic4>
+                        </contentheading3>
+
+                    </headingoverdgi>
+                </controls>
+            </helppage>
+
+            <!-- ****************************************************************-->
+            <!-- ******************** End help Page    *************************-->
+            <!-- ****************************************************************-->
+          <!-- ****************************************************************-->
+          <!-- ******************** End Viewer Page   *************************-->
+          <!-- ****************************************************************-->
+          <viewerpage>
+                <!-- ***** Start of contentbar section ***** -->
+                <contentbar>
+                  <controls>
+                          <labels>
+                            <txtselectedcountry>World</txtselectedcountry>
+                            <txtselectedbasket>No Basket</txtselectedbasket>
+                            <txtselectedsnapshot>No Snapshot</txtselectedsnapshot>
+                            <txtsearch>Search</txtsearch>                            
+                          </labels>
+                          
+                          <!-- Img button for country details -->
+                          <countrydetail>
+                            <caption>cb_detail_start.png</caption>
+                            <tooltip>View Details</tooltip>
+                            <successivemessages>
+                            </successivemessages>                                               
+                          </countrydetail>
+
+                        <!-- Img button for country browse -->
+                        <browsecountry>
+                          <caption>cb_browse_middle.png</caption>
+                          <tooltip>Browse for Country</tooltip>
+                          <successivemessages>
+                          </successivemessages>
+                        </browsecountry>
+
+                        <!-- Img button for Go -->
+                        <go>
+                          <caption>cb_go_end.png</caption>
+                          <tooltip>Go</tooltip>
+                          <successivemessages>
+                          </successivemessages>
+                        </go>
+
+                        <!-- Calendar control button for Select date  -->
+                        <activedate>
+                          <caption>cb_calendar.png</caption>
+                          <tooltip>Select Date</tooltip>
+                          <scriptsource>CalendarControl_en.js</scriptsource>
+                          <successivemessages>
+                          </successivemessages>
+                        </activedate>
+                        
+                        <!-- Img button for Basket details -->
+                        <basketdetail>
+                          <caption>cb_detail_start.png</caption>
+                          <tooltip>View Details</tooltip>
+                          <successivemessages>
+                          </successivemessages>
+                        </basketdetail>
+
+                        <!-- Img button for Basket Contents -->
+                        <basketcontent>
+                          <caption>cb_open_middle.png</caption>
+                          <tooltip>View Basket Contents</tooltip>
+                          <successivemessages>
+                          </successivemessages>
+                        </basketcontent>
+
+                        <!-- Img button for Browse Basket -->
+                          <browsebasket>
+                            <caption>cb_browse_end.png</caption>
+                            <tooltip>Browse for Basket</tooltip>
+                            <successivemessages>
+                            </successivemessages>
+                          </browsebasket>
+                        <cancelsnapshot>
+                            <caption>snapshotcancel.png</caption>
+                            <tooltip>Cancel Snapshot</tooltip>
+                            <successivemessages>
+                            </successivemessages>
+                          </cancelsnapshot>
+                          <!-- Img button for Browse by search string -->
+                          <search>
+                            <caption>cb_search_standalone.png</caption>
+                            <tooltip>Search</tooltip>
+                            <successivemessages>
+                            </successivemessages>
+                          </search>                                                                          
+                                                
+                        <!-- Img button for Help Desk -->
+                        <helpdesk>
+                          <caption>cb_help_standalone.png</caption>
+                          <tooltip>HelpDesk</tooltip>
+                          <successivemessages>
+                          </successivemessages>
+                        </helpdesk>
+
+                        <!-- Img button for Logout -->
+                        <logout>
+                          <caption>cb_logout_end.png</caption>
+                          <tooltip>Logout</tooltip>
+                          <successivemessages>
+                            <msglogout>Do you really want to exist the system?</msglogout>
+                          </successivemessages>
+                        </logout>
+                        
+                      </controls>                
+              </contentbar>
+            <!-- ***** End of contentbar section ***** -->
+
+
+            <!-- ***** Start of toolbar section ***** -->
+            <toolbar>
+              <controls>
+                     <!-- Refresh Button -->
+                     <refresh>
+                       <caption>icon_refreshmap.gif</caption>
+                       <tooltip>Refresh Map</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </refresh>
+                     
+                     <!-- Measure Button -->
+                     <measure>
+                       <caption>icon_measure.gif</caption>
+                       <tooltip>Measure Distance</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </measure>
+                     
+                     <!-- Cursor select mode button -->
+                     <cursorselect>
+                       <caption>icon_select.gif</caption>
+                       <tooltip>Select mode</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </cursorselect>
+
+                     <!-- Pan mode button -->
+                     <pan>
+                       <caption>icon_pan.gif</caption>
+                       <tooltip>Pan mode</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </pan>
+
+                     <!-- Zoom to rectangle button -->
+                     <zoomtorectangle>
+                       <caption>icon_zoomrect.gif</caption>
+                       <tooltip>Zoom to rectangle</tooltip>
+                       <successivemessages>
+					   <zoomrectmsg>Further zoom in not possible</zoomrectmsg>
+                       </successivemessages>
+                     </zoomtorectangle>
+
+                     <!-- Zoom in button -->
+                     <zoomin>
+                       <caption>icon_zoomin.gif</caption>
+                       <tooltip>Zoom in</tooltip>
+                        <successivemessages>
+					   <zoominmsg>Further zoom in not possible</zoominmsg>
+					   <busymsg>Server is processing your previous request, try again later.</busymsg>
+                       </successivemessages>
+                     </zoomin>
+
+                     <!-- Zoom out button -->
+                     <zoomout>
+                       <caption>icon_zoomout.gif</caption>
+                       <tooltip>Zoom out</tooltip>
+                       <successivemessages>
+					   <zoomoutmsg>Further zoom out not possible</zoomoutmsg>
+                       </successivemessages>
+                     </zoomout>
+					 
+                      <setactivemap>
+                       <caption></caption>
+                       <tooltip>Set ActiveMap</tooltip>
+                       <successivemessages>
+                       <msgnotactivemapset>The Map is not in the Active Mapset</msgnotactivemapset>
+                       <msgdynmodedisallowed>This function will not work for dynamic map selection mode</msgdynmodedisallowed>
+                       </successivemessages>
+                     </setactivemap>
+                     <!-- Zoom dynamic button -->
+                     <zoomdynamic>
+                       <caption>icon_zoom.gif</caption>
+                       <tooltip>Zoom dynamic</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomdynamic>
+                     
+                     <!-- Previous view button -->
+                     <previouszoom>
+                       <caption>icon_back.gif</caption>
+                       <tooltip>Previous zoom</tooltip>
+                       <successivemessages>                       
+                       </successivemessages>
+                     </previouszoom>
+                     
+                     <!-- secondviewer button -->
+                     <secondviewer>
+                       <caption>icon_2ndviewer.gif</caption>
+                       <tooltip>Open 2nd Map viewer</tooltip>
+                       <successivemessages>                       
+                       </successivemessages>
+                     </secondviewer>
+
+                     <!-- Google Earth view button -->
+                     <googleearth>
+                       <caption>icon_search.gif</caption>
+                       <tooltip>GoogleEarth view</tooltip>
+                       <successivemessages>
+                       <noprev>Sorry You don't have sufficient privilege to view Google Earth</noprev>
+                       <msgnoipointselection>No iPoints Selected, Please select some iPoints to go to google earth.</msgnoipointselection>
+                       </successivemessages>
+                     </googleearth>
+
+                     <!-- Custom print button -->
+                     <customprint>
+                       <caption>icon_printablepage.gif</caption>
+                       <tooltip>Custom Print</tooltip>
+                       <successivemessages>
+                         <msgnomap>There is no active map for printing</msgnomap>
+                       </successivemessages>
+                     </customprint>
+
+                     <!-- GIS Snapshot button -->
+                     <gissnapshot>
+                       <caption>snapshot.gif</caption>
+                       <tooltip>GIS Snapshot</tooltip>
+                       <successivemessages>                     
+                         <msgaddsnap>Are you sure to add snapshot?</msgaddsnap>
+                         <msgselectbkt>Please Select Basket</msgselectbkt>
+                         <msgcancelsnap>Snapshot has been canceled</msgcancelsnap>
+                         <msgaccessdenied>Access Denied.</msgaccessdenied>
+                         <msgbktowner>You are not the Basket Owner. Do you want to be the Basket Owner?</msgbktowner>
+						 <msgchangebktownersuccess>Basket Owner Changed Successfully.</msgchangebktownersuccess>
+                         <msgactivemap>Active map is out of the current viewer area.</msgactivemap>
+                         <msgdynmapallowed>This snapshot can be restored in dynamic map selection mode</msgdynmapallowed>
+                         <msgdynmapdisallowed>This snapshot can not be restored in dynamic map selection mode</msgdynmapdisallowed>                       
+						 <readonlymsg>Currently the system is in Read-Only mode because we are creating a new version.</readonlymsg>                       
+                       </successivemessages>
+                     </gissnapshot>
+
+                     <!-- View Single Map button -->
+                     <viewsinglemap>
+                       <caption>lc_raster.gif</caption>
+                       <tooltip>View Single Map</tooltip>
+                       <successivemessages>
+                         <msgnomap>There is no active map for showing</msgnomap>
+                       </successivemessages>
+                     </viewsinglemap>
+
+
+                     <!-- Zoom to XY button -->
+                     <zoomtoxy>
+                       <caption>latlong.gif</caption>
+                       <tooltip>Zoom to xy</tooltip>
+                       <panelheader>Zoom</panelheader>
+                       <zoombtn>zoomtoxy.png </zoombtn>
+                       <closebtn>zoomclose.png</closebtn>
+                       <successivemessages>
+                         <msginputerror>Please enter valid Lat,Lon and Zoomscale.</msginputerror>                         
+                       </successivemessages>
+                     </zoomtoxy>
+                     
+                     <!-- Altitude button -->
+                     <Altitude>
+                       <caption>icon_height.gif</caption>
+                       <tooltip>Altitude</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </Altitude>
+                     
+                     <!-- Mapboundary button -->
+                     <mapboundaryoff>
+                       <caption></caption>
+                       <tooltip>Mapboundary OFF</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </mapboundaryoff>
+                     <mapboundaryon>
+                       <caption></caption>
+                       <tooltip>Mapboundary ON</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </mapboundaryon>
+
+                     <!-- iPoint information button -->
+                     <ipointinfo>
+                       <caption>info.gif</caption>
+                       <tooltip>iPoint Information</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </ipointinfo>  
+
+                     <drawpolygon>
+                       <caption>info.gif</caption>
+                       <tooltip>Draw Polygon</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </drawpolygon>
+
+	   		   <!-- Dynamic map button -->
+                     <dynamicmap>
+                       <caption></caption>
+                       <tooltip>Dynamic Map</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </dynamicmap> 
+					 
+					<!-- Auto Mode button -->
+                     <automode>
+                       <caption></caption>
+                       <tooltip>Auto</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </automode> 
+					 <!-- Expert Mode button -->
+                     <expertmode>
+                       <caption></caption>
+                       <tooltip>Expert</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </expertmode> 
+					 
+					  <!-- Set Center button -->
+                     <setcenter>
+                       <caption></caption>
+                       <tooltip>Set Center</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </setcenter>
+					 
+					  <!-- nonapproved  ipoint button -->
+                     <nonapprovedipoint>
+                       <caption></caption>
+                       <tooltip>Toggle non-approved ipoint</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </nonapprovedipoint>
+                   </controls>            
+             </toolbar>
+            <!-- ***** End of toolbar section ***** -->
+
+
+            <!-- ***** Start of menu section ***** -->
+            <menu>            
+                   <controls>
+                     <!-- Img button Mapinfo Expand/collapse -->
+                     <labels>
+                        <mapinfo>Mapinfo</mapinfo>
+                        <mapsets>Mapsets</mapsets>
+                        <othermap>Other Maps</othermap>
+                        <nongeomap>Non Geo Maps</nongeomap>
+						<citymap>City Maps</citymap>
+						<continental>Continental</continental>
+						<nongeomapsettext>Non geo mapsset</nongeomapsettext>
+                        <mapsetodt>Mapsets (Out of Date)</mapsetodt>
+                        <ipoints>iPoints</ipoints>
+                        <nomap> No Map Found!</nomap>
+                        <nomapset>No Mapsets Found! </nomapset>
+                        <scale>  Scale     : 1 : </scale>
+                        <heightunit> Height Unit:  </heightunit>
+                        <series>Series :</series>
+                        <map>Map : </map>
+						<approvelegend>IND (goedgekeurd)</approvelegend>
+						<nonapprovelegend>IND (voorlopig)</nonapprovelegend>
+                     </labels>
+                     
+                     <!-- Img button detail for mapinfo -->
+                     <detailmap>
+                       <detailbtn>menu_detail_start.png</detailbtn>
+                       <tooltip>Detail</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </detailmap>
+                    <detailmapset>
+                       <detailbtn>menu_detail_start.png</detailbtn>
+                       <tooltip>Detail</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </detailmapset>
+                     
+                     <!-- Img button select map for mapinfo -->
+                     <selectmap>
+                       <caption></caption>
+                       <tooltip>Select map</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </selectmap>
+                      <selectmapset>
+                       <caption></caption>
+                       <tooltip>Select mapset</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </selectmapset>
+                     <!-- Img button zoom to mapview for mapinfo -->
+                     <zoomtomapview>
+                       <caption>menu_zoomto_end.png</caption>
+                       <tooltip>Zoom to mapview</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomtomapview>
+                     
+                     <!-- Img button Expert for mapsets -->
+                     <mapsets>
+                       <expertbtn>expert.png</expertbtn>
+                       <expert_close_btn>expert_close.png</expert_close_btn>
+                       
+                       <tooltip>
+                       <birdeye>Display in Birdseye</birdeye>
+                       <mainview>Display in Mainviewer</mainview>
+                       <mapboundaries>Display Mapboundaries</mapboundaries>
+                       <outofdate>Out Of date</outofdate>
+                       </tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </mapsets>
+
+                     <!-- Img button detail for mapsets -->
+                     <mapsets>
+                       <caption>menu_detail_start.png</caption>
+                       <tooltip>Detail</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </mapsets>
+
+                          
+
+                     <!-- Radio button for All for iPoints -->
+                     <allipoints>
+                       <caption>All</caption>
+                       <tooltip></tooltip>
+                       <successivemessages>
+					   <ipointrestrictmsg>iPoint can't be shown in world level</ipointrestrictmsg>
+                       </successivemessages>
+                     </allipoints>
+
+                     <!-- Radio button for Internal iPoints -->
+                     <internalipoints>
+                       <caption>Internal</caption>
+                       <tooltip></tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </internalipoints>
+
+                     <!-- Radio button for External iPoints -->
+                     <externalipoints>
+                       <caption>External</caption>
+                       <tooltip></tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </externalipoints>
+					
+					<!-- Radio button for City iPoints -->
+                     <cityipoints>
+                       <caption>City</caption>
+                       <tooltip></tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </cityipoints>
+					
+					<!-- Radio button for None iPoints -->
+                     <noipoints>
+                       <caption>None</caption>
+                       <tooltip></tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </noipoints>
+					
+                     <!-- Img button select map for ipoints -->
+                     <detail>
+                       <caption>menu_browse_end.png</caption>
+                       <tooltip>Select iPoint</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </detail>
+
+                   </controls>
+            </menu>
+            <!-- ***** End of Menu section ***** -->
+             
+           </viewerpage>
+          <!-- ****************************************************************-->
+          <!-- ******************** End Viewer Page   *************************-->
+          <!-- ****************************************************************-->
+
+          <!-- ############################################################### -->
+
+
+          <!-- ****************************************************************-->
+          <!-- ******************** Start Zoom to Page   **********************-->
+          <!-- ****************************************************************-->
+          <zoomtopage>
+             <labels>
+                 <fieldsetcaption>Zoom</fieldsetcaption>
+                 <lat>Lat</lat>
+                 <lon>Lon</lon>
+                 <scale>Scale</scale>  
+				 <region>REGION</region>
+				 <country>Country</country>
+				 <mapset>Mapset</mapset>
+				 <waar>WAAR</waar>
+             </labels>
+
+             <!-- zoom to point button -->
+             <buttoncaption>
+                 <zoombtn>zoomtoxy.png </zoombtn>
+                 <closebtn>zoomclose.png</closebtn>
+				 <regionzoombtn>zoomtoregion_nl.png</regionzoombtn>
+                 <tooltip></tooltip>
+                 <zoomtobutton></zoomtobutton>
+                 <successivemessages>
+				 <regionmapnotfoundmsg>Select a valid region</regionmapnotfoundmsg>
+				 <mapnotfoundmsg>No map found for these params, Please select different scale and/or lat-lon</mapnotfoundmsg>
+                 </successivemessages>
+             </buttoncaption>             
+          
+          </zoomtopage>          
+
+          <!-- ****************************************************************-->
+          <!-- ******************** End Zoom to Page   ************************-->
+          <!-- ****************************************************************-->
+
+
+         
+
+        
+
+          <!-- ****************************************************************-->
+          <!-- ******************** Start Measure Page   **********************-->
+          <!-- ****************************************************************-->
+          <measurepage>
+             <labels>               
+                <segment>Segment</segment>
+                <total>Total</total>                                                
+                <kilometers>Kilometers</kilometers>   
+                <miles>Miles</miles>   
+             </labels>
+             
+             <!-- Check box Imperial -->
+              <imperial>
+                <caption>Imperial</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </imperial>
+             
+             <!-- Check box Imperial -->
+              <metric>
+                <caption>Metric</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </metric>
+             
+             <!-- Button Clear for clearing the measure -->
+              <metric>
+                <caption>Metric</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </metric>
+              
+              <!-- Button Stop to stop the measure functionality  -->
+              <stop>
+                <caption>Stop</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </stop>
+              
+              <!-- Button Resume to activate measure functionality  -->
+              <resume>
+                <caption>Resume</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </resume>
+              
+          </measurepage>         
+          
+          <!-- ****************************************************************-->
+          <!-- ******************** End Measure Page   ************************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+
+
+         
+
+          <!-- ****************************************************************-->
+          <!-- ******************** Start Browser Page   **********************-->
+          <!-- ****************************************************************-->
+
+          <browserpage>
+            <controls>                         
+              <labels>
+                  <!-- let [rowcount] and [totalrow] are variables -->   
+                  <row>Row:</row>
+                  <of>of</of>
+                  <pagesize>Results per Page:</pagesize>
+                  <decimal>Decimall:</decimal>
+                  <loadingprogress>Loading...</loadingprogress>
+              </labels>
+            
+              <!-- Dropdown list category -->
+              <category>
+                <caption>Category:</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </category>
+              
+              <!-- No selection caption for categpry -->
+              <drpcapcategory>
+                <caption>No Selection</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </drpcapcategory>
+
+              <!-- Dropdown list sub category -->
+              <subcategory>
+                <caption>Subcategory:</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </subcategory>
+
+              <!-- Checkbox Active date -->
+              <activedate>
+                <caption>Active Date</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </activedate>
+              
+              <!-- Dropdown list group by -->
+              <groupby>
+                <caption>Group By:</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </groupby>
+                            
+
+              <!-- No selection caption for group by -->
+              <drpgroupby>
+                <caption>No Selection</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </drpgroupby>
+
+              <!-- Add button for adding new item -->
+              <addbutton>
+                <caption>Add</caption>
+                <tooltip>Add Item</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </addbutton>
+			  			   			  
+			   <!-- print OB button for adding new item -->
+              <printob>
+                <caption>Print OB</caption>
+                <tooltip>Print OB Info</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </printob>
+			  
+			  
+              <!-- Selectie Filter button for filtering objects -->
+              <selectiefilter>
+                <caption>Selectie Filter</caption>
+                <tooltip>SelectieFilter</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </selectiefilter>
+
+              <!-- detail column(img button) for each category -->
+              <objectdetail>
+                <caption></caption>
+                <tooltip>Show details</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </objectdetail>
+
+              <!-- view Map column(img button) for category map -->
+              <viewmap>
+                <caption></caption>
+                <tooltip>View Map</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </viewmap>
+
+              <!-- Open snapshot column(img button) for category basket -->
+              <opensnapshot>
+                <caption></caption>
+                <tooltip>Open Snapshot</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </opensnapshot>
+              
+              <!-- set category type(img button) from browser to viewer -->
+              <setcategory>
+                <caption></caption>
+                <!-- [category type] comes from dropdown category -->
+                <tooltipzoom>Zoom to iPoint</tooltipzoom>
+                <tooltipother>Set</tooltipother>                
+                <successivemessages>
+                  <nongeomsg>You can't select non-geo map.</nongeomsg>
+				  <noactivemapmsg>There is no Active Map for showing.</noactivemapmsg>
+                  <message2></message2>
+                </successivemessages>
+              </setcategory>
+                                                        
+              <!-- First page of the report -->
+              <firstpage>
+                <caption></caption>
+                <tooltip>First Page</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </firstpage>
+
+              <!-- Previous page of the report -->
+              <previouspage>
+                <caption></caption>
+                <tooltip>Previous Page</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </previouspage>
+
+              <!-- Select previous row of the report -->
+              <previousrow>
+                <caption></caption>
+                <tooltip>Previous Row</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </previousrow>
+                            
+              <!-- Select next row of the report -->
+              <nextrow>
+                <caption></caption>
+                <tooltip>Next Row</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </nextrow>
+
+              <!-- Next page of the report -->
+              <nextpage>
+                <caption></caption>
+                <tooltip>Next Page</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </nextpage>
+
+              <!-- Last page of the report -->
+              <lastpage>
+                <caption></caption>
+                <tooltip>Last Page</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </lastpage>
+                           
+
+              <!-- Refresh button in footer of footer(navigation panel) of browser -->
+              <refresh>
+                <caption>Refresh</caption>
+                <tooltip>Refresh</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </refresh>
+              
+              <!-- Show page button in footer of browser -->
+              <showpage>
+                <caption>Show Page</caption>
+                <tooltip>show page</tooltip>
+                <successivemessages>
+                  <nomapmsg>You have to select at least one iPoint that falls on any map</nomapmsg>
+                  <message2></message2>
+                </successivemessages>
+              </showpage>
+              
+              <!-- Clear Selection button in footer browser -->
+              <clearselection>
+                <caption>Clear Selection</caption>
+                <tooltip>clear selection</tooltip>
+                <successivemessages>                  
+                  <message1></message1>
+                </successivemessages>
+              </clearselection>
+			   <mode>
+				<simple>
+					<caption>Simple</caption>
+					<tooltip>Simple</tooltip>
+					<successivemessages></successivemessages>
+				</simple>
+                <full>
+					<caption>Full</caption>
+					<tooltip>Full</tooltip>
+					<successivemessages></successivemessages>
+				</full>
+              </mode>
+			 
+            </controls>                       
+          </browserpage>
+		
+          <!-- ****************************************************************-->
+          <!-- ******************** End Browser Page   ************************-->
+          <!-- ****************************************************************-->
+		  
+
+          <!-- ############################################################### -->
+
+		  <!-- ****************************************************************-->
+          <!-- ******************** Start More Setting Page   **********************-->
+          <!-- ****************************************************************-->
+		  <moresettings>
+			<controls>                         
+              <labels>
+				 <buffersetting>Buffer settings</buffersetting>
+				 <neighbouringcountry>Neighbouring Country</neighbouringcountry>		
+				 <bufferlinetitle>Buffer Lenje lijn</bufferlinetitle>
+				 <extenttitle>Buffer vanuit punt</extenttitle>
+				 <moresetting>More settings</moresetting>	
+				 <obfilterstatus>OB Filter Status</obfilterstatus>
+				 <bufferwidth> Buffer Width</bufferwidth>
+				 <kmvalue>km</kmvalue>
+				 <searchextnt>Search extension to neighbouring countries</searchextnt>
+				 <alltxt>All</alltxt>
+				 <groupbydecimal>Groupby Decimal</groupbydecimal>
+				 <groupbydsg>Group by DSG</groupbydsg>
+			  </labels>
+			  
+			   <!-- clear filter button for adding new item -->
+              <clearfilter>
+                <caption>ClearFilter</caption>
+                <tooltip>Clear Filter</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </clearfilter>
+			  
+			  <pickline>
+                <caption>Pick Line</caption>
+                <tooltip>Pick Line T</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </pickline>
+			  
+			  <bufferfilter>
+                <caption>Filter ipoints</caption>
+                <tooltip>Filter ipoints</tooltip>
+                <successivemessages>
+                  <notdrawnmsg>Extent not drawn</notdrawnmsg>
+                  <message2></message2>
+                </successivemessages>
+              </bufferfilter>
+			  
+			  <drawextent>
+                <caption>Draw Extent</caption>
+                <tooltip>Draw Extent T</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </drawextent>
+			  
+			  <extentfilter>
+                <caption>Filter ipoints</caption>
+                <tooltip>Filter ipoints</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </extentfilter>
+			  
+			  
+			  <showcountry>
+                <caption>Show Country</caption>
+                <tooltip>Show Country T</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </showcountry>
+			  
+			  <showgrplist>
+                <caption>ShowGroupList</caption>
+                <tooltip>ShowGroupList T </tooltip>
+                <successivemessages>
+                  
+                  <message2></message2>
+                </successivemessages>
+              </showgrplist>
+			  
+			  
+			  <groupdsg>
+                <caption>Group by DSG</caption>
+                <tooltip>Group by DSG T</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </groupdsg>
+			  
+			  <closebtn>
+                <caption>Close</caption>
+                <tooltip>Close T</tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </closebtn>
+			  
+			 </controls>
+		  </moresettings>
+		  
+		  <!-- ****************************************************************-->
+          <!-- ******************** End  More Setting  Page   ************************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+		  
+          <!-- ****************************************************************-->
+          <!-- **************** Start Query Builder Page  *********************-->
+          <!-- ****************************************************************-->
+          
+          <querybuilderpage>
+            <!-- ***** Start first tab section ******* -->
+            <firsttab>
+              <controls>
+                <!-- Labels of first tab-->  
+                <labels>
+                  <pagetitle>Query Builder: Filter</pagetitle>
+                  <fieldsetcaption>Filter setup</fieldsetcaption>
+                  <firstdrpcaption>Field name</firstdrpcaption>
+                  <seconddrpcaption>Comparison</seconddrpcaption>
+                  <thirddrpcaption>Value</thirddrpcaption>                                    
+                </labels>
+                
+                <!-- Active Img for first tab -->
+                <tabheaderactive>
+                  <caption>filter_instellen_active_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderactive>
+
+                <!-- Inactive Img for first tab -->
+                <tabheaderinactive>
+                  <caption>filter_instellen_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderinactive>
+
+                <!-- Button Toevoegen for adding a clause in the where list-->
+                <toevoegen>
+                  <caption>Add</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </toevoegen>
+                
+                <!-- Button edit for editing a clause in the where list-->
+                <edit>
+                  <caption>Edit</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </edit>
+                
+                <!-- Ok Button for edit div-->
+                <okedit>
+                  <caption>Ok</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </okedit>
+                                
+                <!-- Cancel Button for edit div-->
+                <canceledit>
+                  <caption>Cancel</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </canceledit>
+                
+
+                <!-- Button Verwijderen for removing a clause from the where list-->
+                <verwijderen>
+                  <caption>Delete</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </verwijderen>
+              </controls>
+            </firsttab>
+            <!-- ***** End first tab section ******* -->
+
+            <!-- ***** Start Second tab section ******* -->
+            <secondtab>
+              <controls>
+                <!-- Labels of second tab -->
+                <labels>
+                  <pagetitle>Query Builder: Field selection</pagetitle>                                    
+                  <fieldsetcaption>Select  fields for display</fieldsetcaption>
+                  <leftlistheader>Available fields</leftlistheader>
+                  <rightlistheader>Selected fields</rightlistheader>
+                </labels>
+
+                <!-- Active Img for second tab -->
+                <tabheaderactive>
+                  <caption>velden_selecteren_active_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderactive>
+
+                  <!-- Inactive Img for second tab -->
+                <tabheaderinactive>
+                  <caption>velden_selecteren_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderinactive>
+
+                <!-- Item shifting button in second tab-->
+                <moveitem>
+                  <caption></caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <movemsg>No option selected!</movemsg>
+                    <message2></message2>
+                  </successivemessages>
+                </moveitem>
+
+              </controls>
+            </secondtab>
+            <!-- ***** End Second tab section ******* -->
+
+            <!-- ***** Start Third tab section ******* -->
+            <thirdtab>
+              <controls>
+                <!-- Labels of third tab -->
+                <labels>
+                  <pagetitle>Query Builder: Group by</pagetitle>
+                  <firstfieldsetcaption>Group by</firstfieldsetcaption>
+                  <drpgroupby>Group on field:</drpgroupby>
+                  <secondfieldsetcaption>Group by totals</secondfieldsetcaption>                 
+                  <firstdrpcaption>Totals type</firstdrpcaption>
+                  <seconddrpcaption>Field name</seconddrpcaption>
+                  <thirddrpcaption>Show as</thirddrpcaption>
+                </labels>
+
+                <!-- Active Img for third tab -->
+                <tabheaderactive>
+                  <caption>groeperen_active_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderactive>
+
+                <!-- Inactive Img for third tab -->
+                <tabheaderinactive>
+                  <caption>groeperen_en.png</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </tabheaderinactive>                        
+
+                <!-- Button Toevoegen in third tab-->
+                <toevoegen>
+                  <caption>Add</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <emptyvaluemsg>'Weergeven als' is een verplicht veld!</emptyvaluemsg>
+                    <numvaluemsg>'Weergeven als' mag niet met een numeriek karakter beginnen!</numvaluemsg>
+                  </successivemessages>
+                </toevoegen>
+
+                <!-- Button Verwijderen for removing a clause from the where list-->
+                <verwijderen>
+                  <caption>Delete</caption>
+                  <tooltip></tooltip>
+                  <successivemessages>
+                    <message1></message1>
+                    <message2></message2>
+                  </successivemessages>
+                </verwijderen>
+
+              </controls>
+            </thirdtab>
+            
+            <!-- ***** End of Third tab section ******* -->
+
+            <!-- Button uitvoeren for closing the window and reload browser-->
+            <uitvoeren>
+              <caption>Submit</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </uitvoeren>
+            
+          </querybuilderpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End Query Builder Page  **********************-->
+          <!-- ****************************************************************-->
+
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ***************** Start Country detail page ********************-->
+          <!-- ****************************************************************-->
+
+          <countrydetailpage>
+            <controls>
+              <!-- Labels for country details page-->
+              <labels>
+                <pagetitle>Country Detail</pagetitle> 
+                <fieldsetcaption>Country Information</fieldsetcaption>
+                <country_code>Code</country_code>
+                <country_name>Name</country_name>
+                <area>Area</area>
+                <date_added>Date Added</date_added>
+                <y>Lat</y>
+                <x>Lon</x>
+                <zoomscale>Zoom Scale</zoomscale>
+              </labels>
+
+              <!-- Button close for closing the window-->
+              <close>
+                <caption>Close</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </close>
+            </controls>
+          </countrydetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End Country detail page   ********************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ***************** Start Mapset detail page  ********************-->
+          <!-- ****************************************************************-->
+
+          <mapsetdetailpage>
+            <!-- Labels for mapset details page-->
+            <controls>
+              <labels>
+                <pagetitle>Mapset Detail</pagetitle>
+                <fieldsetcaption>Mapset Information</fieldsetcaption>
+                <mapset_code>Mapset Code</mapset_code>
+                <country_code>Country Code</country_code>
+                <mapset_name>Mapset Name</mapset_name>
+                <mapset_type>Mapset Type</mapset_type>
+                <scale>Scale</scale>
+                <start_date>Start Date</start_date>
+                <end_date>End Date</end_date>
+                <add_date>Add Date</add_date>
+                <levels>Levels</levels>
+                <mapset_filename>Mapset Filename</mapset_filename>
+                <ind_reference>Ind Reference</ind_reference>
+                <y>Lat</y>
+                <x>Lon</x>
+                <zoomscale>Zoom Scale</zoomscale>
+              </labels>
+
+              <!-- Button close for closing the window-->
+              <close>
+                <caption>Close</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </close>
+            </controls>
+          </mapsetdetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End Mapset detail page ***********************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ******************** Start Map detail page  ********************-->
+          <!-- ****************************************************************-->
+
+          <mapdetailpage>
+            <controls>
+            <!-- Labels for map details page-->
+            <labels>
+              <pagetitle>Map Detail</pagetitle>
+              <firstfieldsetcaption>Map Information</firstfieldsetcaption>
+              <secondfieldsetcaption>Additional Information</secondfieldsetcaption>
+              <showmap>Show Map</showmap>
+              <emptysecondfieldset>No Additional information available</emptysecondfieldset>
+
+              <!-- from ob_detail_map -->
+              <land>Land</land>
+              <ind_identificatie>Ind Identification</ind_identificatie>
+              <originele_identificatie>Original Identification</originele_identificatie>
+              <ind_ontvangstdatum>Ind Date received</ind_ontvangstdatum>
+              <datum_uitgifte>Date Publication</datum_uitgifte>
+              <ind_datum_beschikbaar>Ind Date added</ind_datum_beschikbaar>
+              <uitgever>Publisher</uitgever>
+              <metadata_bijgewerkt_datum>Last update metadata</metadata_bijgewerkt_datum>
+              <auteur>Author</auteur>
+              <metadata_bijgewerkt_persoon>Update metadata</metadata_bijgewerkt_persoon>
+              <taal_inhoud>Language content</taal_inhoud>
+              <naam_leverancier>Reseller</naam_leverancier>
+              <hoogte_informatie>Height unit</hoogte_informatie>
+              <identificatie_leverancier>Reseller id</identificatie_leverancier>
+              <schaal>Scale</schaal>
+              
+              <!-- from maps_meta_to-->
+              <map_code>Map Code</map_code>
+              <geodetic_system>Geodetic System</geodetic_system>
+              <map_identification>Map Identification</map_identification>
+              <representation>Representation</representation>
+              <coord_west>Coord West</coord_west>
+              <coord_east>Coord East</coord_east>
+              <coord_south>Coord South</coord_south>
+              <coord_north>Coord North</coord_north>
+              <projection>Projection</projection>
+
+              <!--maps_meta_s-->
+              <accuracy>Accuracy</accuracy>
+              <!-- metadata_n-->
+              <city_name>City Name</city_name>              
+
+            </labels>
+
+            <!-- Button close for closing the window-->
+            <close>
+              <caption>Close</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </close>
+            </controls>
+          </mapdetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ******************** End Map detail page ***********************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ***************** Start Basket detail page  ********************-->
+          <!-- ****************************************************************-->
+
+          <basketdetailpage>
+            <controls>
+              <!-- Labels for Basket details page-->
+              <labels>
+                <pagetitle>Basket Detail</pagetitle>
+                <fieldsetcaption>Basket Information</fieldsetcaption>
+                <ref_name>Ref Name</ref_name>
+                <creator>Creator</creator>
+                <basket_owner>Basket Owner</basket_owner>
+                <create_date>Create Date</create_date>
+                <owner_date>Owner Date</owner_date>
+                <description>Description</description>
+                <remark>Remark</remark>
+              </labels>
+
+              <!-- Button delete for deleting the item from db-->
+              <becomeowner>
+                <caption>Become Owner?</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                </successivemessages>
+              </becomeowner>
+              
+              <!-- Button delete for deleting the item from db-->
+              <add>
+                <caption>Add</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <emptymsg>The next mandatory fields are missing:</emptymsg>
+                  <duplicateref>The refname you specified already exists, Specify a different refname</duplicateref>
+                </successivemessages>
+              </add>
+
+              <!-- Button delete for deleting the item from db-->
+              <delete>
+                <caption>Delete</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <deleteconfirmmsg>
+                    Are you sure you want to delete the basket?
+                  </deleteconfirmmsg>
+                  <message2></message2>
+                </successivemessages>
+              </delete>
+
+              <!-- Button Edit for Editing the item-->
+              <edit>
+                <caption>Edit</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </edit>
+
+              <!-- Button Save for Editing the item-->
+              <save>
+                <caption>Save</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <!-- ref: Same messages used for add-->
+                </successivemessages>
+              </save>
+
+              <!-- Button Cancel for canceling the Edit option -->
+              <cancel>
+                <caption>Cancel</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <cancelconfirmmsg>Are you sure you want to cancel without saving any changes?</cancelconfirmmsg>
+                  <message2></message2>
+                </successivemessages>
+              </cancel>
+
+              <!-- Button close for closing the window-->
+              <close>
+                <caption>Close</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </close>
+            </controls>
+          </basketdetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End Basket detail page ***********************-->
+          <!-- ****************************************************************-->
+
+
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ***************** Start Snapshot detail page  ******************-->
+          <!-- ****************************************************************-->
+
+          <snapshotdetailpage>
+            <controls>
+              <!-- Labels for Snapshot details page-->
+              <labels>
+                <pagetitle>Snapshot Detail</pagetitle>
+                <fieldsetcaption>Snapshot Information</fieldsetcaption>
+                <id>ID</id>
+                <basket_id>Basket ID</basket_id>
+                <country_code>Country Code</country_code>
+                <snapshot_owner>Snapshot Owner</snapshot_owner>
+                <active_map>Active Map</active_map>
+                <active_date>Active Date</active_date>
+                <last_update>Last Update</last_update>
+                <zoom_centre_x>Zoom Centre-X</zoom_centre_x>
+                <zoom_centre_y>Zoom Centre-Y</zoom_centre_y>
+                <layerstate>Layer State</layerstate>
+                <zoom_margin>Zoom Margin</zoom_margin>
+                <remark>Remark</remark>
+                <description>Description</description>
+              </labels>
+
+              <!-- Button delete for deleting the item from db-->
+              <delete>
+                <caption>Delete</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <deleteconfirmmsg>Are you sure you...... want to delete the snapshot?</deleteconfirmmsg>                  
+                </successivemessages>
+              </delete>
+
+              <!-- Button Edit for Editing the item-->
+              <edit>
+                <caption>Edit</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </edit>
+
+              <!-- Button Save for Editing the item-->
+              <save>
+                <caption>Save</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <emptymsg>The next mandatory fields are missing:</emptymsg>                                    
+                </successivemessages>
+              </save>
+
+              <!-- Button Cancel for canceling the Edit option -->
+              <cancel>
+                <caption>Cancel</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <cancelconfirmmsg>Are you sure you want to cancel without saving any changes?</cancelconfirmmsg>
+                  <message2></message2>
+                </successivemessages>
+              </cancel>
+
+              <!-- Button close for closing the window-->
+              <close>
+                <caption>Close</caption>
+                <tooltip></tooltip>
+                <successivemessages>
+                  <message1></message1>
+                  <message2></message2>
+                </successivemessages>
+              </close>
+            </controls>
+          </snapshotdetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End Snapshot detail page *********************-->
+          <!-- ****************************************************************-->
+
+          
+          <!-- ############################################################### -->
+
+          <!-- ****************************************************************-->
+          <!-- ***************** Start iPoint detail page    ******************-->
+          <!-- ****************************************************************-->
+
+          <ipointdetailpage>
+            <controls>
+            <!-- Labels for iPoint Information details page-->
+            <labels>
+              <pagetitle>iPoint Detail</pagetitle>
+              <commonfscaption>iPoint Information</commonfscaption>
+              <editfieldsetcaption>Edit</editfieldsetcaption>
+              <approvefieldsetcaption>Approve</approvefieldsetcaption>
+              
+              <ipoint_description>iPoint Description</ipoint_description>
+              <country_code>Country Code</country_code>
+              <ipoint_type>iPoint Type</ipoint_type>
+              <ipoint_source>iPoint Source</ipoint_source>
+              <creator>Creator</creator>
+              <start_date>Start Date</start_date>
+              <end_date>End Date</end_date>
+              <create_date>Create Date</create_date>
+              <remark>Remark</remark>
+              <y>Lat</y>
+              <x>Lon</x>
+              <dsg>Dsg</dsg>
+              <approver>Approver</approver>
+              <approval_date>Approval Date</approval_date>
+              <status>Approve Status</status>  
+              <conversion>Conversion</conversion>  
+              <specialref>Spatial reference</specialref>  
+              <easting>X ( Easting )</easting>  
+              <northing>Y ( Northing )</northing>  
+
+            </labels>
+
+
+            <!-- Link Button coordinate conversion -->
+            <coordconversion>
+              <caption>Co-ordinate conversion</caption>
+              <tooltip></tooltip>
+              <successivemessages>                
+                <message1></message1>
+              </successivemessages>
+            </coordconversion>
+            
+            
+            <!-- Button convert for conversion -->
+            <convert>
+              <caption>Convert</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <msgcoordconversion>Error converting co-ordinate. Please check the x and y values</msgcoordconversion>
+                <message2></message2>
+              </successivemessages>
+            </convert>
+            
+            
+            <!-- Button Cancel for cancelling the conversion-->
+            <convertcancel>
+              <caption>Cancel</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </convertcancel>
+            
+            <!-- Link Button Pickpoint for focusing viewer -->
+            <pickpoint>
+              <caption>Pick Point</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </pickpoint>
+
+            <!-- Button Make specific ipoint -->
+            <makespecific>
+              <caption>Make specific iPoint</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </makespecific>
+                        
+            
+            <!-- Button Edit for Editing the item-->
+            <edit>
+              <caption>Edit</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </edit>
+
+            <!-- Button Add for Editing the item-->
+            <add>
+              <caption>Add</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                
+                <emptymsg>The next mandatory fields are missing:</emptymsg>
+                <createdatelow>Create date can't be less than Start date</createdatelow>
+                <addconfirm>Are you sure you want to add the item?</addconfirm>
+                <latlimitmsg>Lat can't be higher than 90º</latlimitmsg>
+                <lonlimitmsg>Lon can't be higher than 180º</lonlimitmsg>
+                <invalidstartdate>Invalid start date</invalidstartdate>
+                <invalidenddate>Invalid End date</invalidenddate>
+                <invalidcreatedate>Invalid Create date</invalidcreatedate>
+                <invalidaprovedate>Invalid approval date</invalidaprovedate>
+              </successivemessages>
+            </add>
+
+            <!-- Button Save for Editing the item-->
+            <save>
+              <caption>Save</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <emptymsg>
+                  <!-- ref: used from as add button-->
+                </emptymsg>
+                <createdatelow>
+                  <!-- ref: used from as add button-->
+                </createdatelow>
+                <enddatelow>End date can't be less than Start date</enddatelow>
+                <xyoutofrange>Sorry! This point(x,y) is out of range supported by the system. Please select another point</xyoutofrange>
+              </successivemessages>
+            </save>
+
+            <!-- Button Delete for deleting the item-->
+            <delete>
+              <caption>Delete</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <confirmmsg>Are you sure you want to delete the iPoint?</confirmmsg>
+              </successivemessages>
+            </delete>
+
+
+            <!-- Button Approve for approving the item-->
+            <approve>
+              <caption_approve>Approve</caption_approve>
+              <caption_unapprove>Unapprove</caption_unapprove>
+              <tooltip></tooltip>
+              <successivemessages>
+                <approvaldateempty>Approval date Cant be empty</approvaldateempty>
+                <confirmapproval>Are you sure you want to approve?</confirmapproval>
+                <confirmunapproval>Are you sure you want to unapprove?</confirmunapproval>
+              </successivemessages>
+            </approve>
+            
+            <!-- Button Cancel for canceling the Edit option -->
+            <cancel>
+              <caption>Cancel</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <confirmmsg>Are you sure you want to cancel without saving any changes?</confirmmsg>
+                <message2></message2>
+              </successivemessages>
+            </cancel>
+
+            <!-- Button close for closing the window-->
+            <close>
+              <caption>Close</caption>
+              <tooltip></tooltip>
+              <successivemessages>
+                <message1></message1>
+                <message2></message2>
+              </successivemessages>
+            </close>
+            </controls>
+          </ipointdetailpage>
+
+          <!-- ****************************************************************-->
+          <!-- ***************** End iPoint detail page   *********************-->
+          <!-- ****************************************************************-->
+          
+             	      <!-- ****************************************************************-->
+          <!-- ***************** Start quick measure page*********************-->
+          <!-- ****************************************************************-->
+			<quickmeasure>
+				<controls>
+				<!-- labels of quickmeasure page -->
+					<labels>
+						<measuredistance>Measure Distance</measuredistance>
+						<segment>Segment</segment>
+						<distancekm>Distance (km)</distancekm>
+						<distancemi>Distance (mi)</distancemi>
+                        <total>Total</total>
+					</labels>
+		
+				<!-- button for clear  -->
+					<clear>
+						<caption>Clear</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</clear>
+
+				<!-- button for plot  -->
+					<plot>
+						<caption>Plot</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</plot>
+
+				<!-- button for close  -->
+					<close>
+						<caption>Close</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</close>
+
+
+				</controls>
+			
+			</quickmeasure>
+
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** end quick measure page*********************-->
+          <!-- ****************************************************************-->
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** Start height measure page*********************-->
+          <!-- ****************************************************************-->
+			<heightmeasure>
+				<controls>
+				<!-- labels of quickmeasure page -->
+					<labels>
+						<measureheight>Measure Height</measureheight>
+						<latitude>Latitude</latitude>
+						<longitude>Longitude</longitude>
+						<altitudem>Altitude(m)</altitudem>
+						<altitudeft>Altitude(ft)</altitudeft>
+					</labels>
+		
+				<!-- button for clear  -->
+					<clear>
+						<caption>Clear</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</clear>
+
+				<!-- button for plot  -->
+					<plot>
+						<caption>Plot</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</plot>
+
+				<!-- button for close  -->
+					<close>
+						<caption>Close</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</close>
+
+
+				</controls>
+			
+			</heightmeasure>
+
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** end height measure page*********************-->
+          <!-- ****************************************************************-->
+
+<!-- ****************************************************************-->
+          <!-- ***************** Start Print options page*********************-->
+          <!-- ****************************************************************-->
+			<printoptions>
+				<controls>
+				<!-- labels of print options page -->
+					<labels>
+                        <printoptions>Print Options</printoptions>
+						<paperformat>Paper format</paperformat>
+						<map>Map</map>
+						<printview>Print View</printview>
+						<printactivemap>Print Active Map</printactivemap>						
+					</labels>
+		
+				<!-- button for print  -->
+					<print>
+						<caption>Print</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+                        <msgoutsideview>Active map outside view. Going to use .... map as active map for printing</msgoutsideview>
+                        <msgnomap>There is no map available in the viewer</msgnomap>
+                        <msgselectactivemap>To print activemap you must first select an activemap</msgselectactivemap>
+						</successivemessages>
+					</print>
+
+				<!-- button for preview  -->
+					<preview>
+						<caption>Preview</caption>
+						<tooltip></tooltip>
+						<successivemessages>
+						</successivemessages>
+					</preview>
+
+				</controls>
+			
+			</printoptions>
+
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** End Print options page*********************-->
+          <!-- ****************************************************************-->
+          
+          
+           <!-- ****************************************************************-->
+          <!-- ***************** Start Print preview page*********************-->
+          <!-- ****************************************************************-->
+			<printpreivew>
+				<controls>
+				<!-- labels of print options page -->
+					<labels>
+                        <printpreview>Print preview</printpreview>						
+					</labels>		
+
+				</controls>
+			
+			</printpreivew>
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** End Print preview page*********************-->
+          <!-- ****************************************************************-->
+          
+           <!-- ****************************************************************-->
+          <!-- ***************** Start 2nd mapviewer page*********************-->
+          <!-- ****************************************************************-->
+			<secondmapviewer>
+				<controls>
+				<!-- labels of print options page -->
+					<labels>
+                        <secondmapview>2nd Map viewer</secondmapview>						
+					</labels>		
+                    
+                   
+                    <!-- refreshmap button -->
+                    <refreshmap>
+                       <caption>icon_refreshmap.gif</caption>
+                       <tooltip>Refresh Map</tooltip>
+                       <successivemessages>
+                         <msgnomap></msgnomap>
+                       </successivemessages>
+                     </refreshmap>  
+                     
+                     <!-- syncronize button -->
+                     <synchronize>
+                       <caption>icon_refreshmap.gif</caption>
+                       <tooltip>Synchronize</tooltip>
+                       <successivemessages>
+                         <msgnomap></msgnomap>
+                       </successivemessages>
+                     </synchronize>
+                                        
+                     <!-- Cursor select mode button -->
+                     <cursorselect>
+                       <caption>icon_select.gif</caption>
+                       <tooltip>Select</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </cursorselect>
+                     
+                     <!-- Pan mode button -->
+                     <pan>
+                       <caption>icon_pan.gif</caption>
+                       <tooltip>Pan</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </pan>
+
+                     <!-- Zoom to rectangle button -->
+                     <zoomtorectangle>
+                       <caption>icon_zoomrect.gif</caption>
+                       <tooltip>Zoom rectangle </tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomtorectangle>
+
+                     <!-- Zoom in button -->
+                     <zoomin>
+                       <caption>icon_zoomin.gif</caption>
+                       <tooltip>Zoom in</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomin>
+
+                     <!-- Zoom out button -->
+                     <zoomout>
+                       <caption>icon_zoomout.gif</caption>
+                       <tooltip>Zoom out</tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomout>
+                                          
+                     <!-- Zoom dynamic button -->
+                     <zoomdynamic>
+                       <caption>icon_zoom.gif</caption>
+                       <tooltip>Zoom dynamic </tooltip>
+                       <successivemessages>
+                       </successivemessages>
+                     </zoomdynamic>
+                     
+				</controls>			
+			</secondmapviewer>
+
+   	      <!-- ****************************************************************-->
+          <!-- ***************** End 2nd mapviewer page*********************-->
+          <!-- ****************************************************************-->
+           <!-- ****************************************************************-->
+          <!-- ***************** start non-geo viewer page*********************-->
+          <!-- ****************************************************************-->
+
+		  <nongeoviewer>
+			<filenotfoundmsg>Error:: File not Found.</filenotfoundmsg>		  
+		  </nongeoviewer>  		  		
+		  
+		  <!-- ****************************************************************-->
+          <!-- ***************** end non-geo viewer page*********************-->
+          <!-- ****************************************************************-->
+        </pagenames>
+      </English-US>       
+ 
+

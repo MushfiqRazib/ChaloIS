@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KitServer", ".", "{A786FA6A-0083-4AF5-8B7D-44D7A75E7A90}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/KitServer"
+		Debug.AspNetCompiler.PhysicalPath = "..\KitServer\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\KitServer\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/KitServer"
+		Release.AspNetCompiler.PhysicalPath = "..\KitServer\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\KitServer\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "23233"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A786FA6A-0083-4AF5-8B7D-44D7A75E7A90}.Debug|.NET.ActiveCfg = Debug|.NET
+		{A786FA6A-0083-4AF5-8B7D-44D7A75E7A90}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

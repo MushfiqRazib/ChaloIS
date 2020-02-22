@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configs>
+
+  <application>
+    <name>IND</name>
+    <baseurl>http://localhost/chaloIS1</baseurl>
+    <users>
+      <user>cni,pwd,heyviewer,pwd</user>
+      <user>epo,pwd,heyadmin,pwd</user>
+    </users>
+  </application>
+
+  <application>
+    <name>EDMVDL</name>
+    <baseurl>http://localhost/chaloIS</baseurl>
+    <users>
+      <user>cni,123,ADMIN,456</user>
+      <user>epo,234,heyadmin,567</user>
+    </users>
+  </application>
+
+  <application>
+    <name>XD01</name>
+    <baseurl>http://localhost/chaloIS2</baseurl>
+    <users>
+      <user>cni,pwd,heyviewer,pwd</user>
+      <user>epo,pwd,heyadmin,pwd</user>
+    </users>
+  </application>
+
+</configs>

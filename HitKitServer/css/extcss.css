@@ -1,0 +1,20 @@
+﻿body
+{
+}
+
+
+.x-form-element
+{
+	padding-left:0px !important;
+}
+
+.x-form-invalid
+{
+	background:none !important;
+	
+}
+
+.ext-gecko .x-form-item 
+{
+	outline:none;
+}
